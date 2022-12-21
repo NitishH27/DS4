@@ -23,7 +23,7 @@ class Stack{
             if(this->top == -1)
                 return -1;
             this->top--;
-            return this->arr[top];
+            return this->arr[top+1];
         }
 };
 
